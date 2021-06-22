@@ -1,0 +1,32 @@
+---
+layout: archive
+title: Blog Posts
+permalink: /blog/
+---
+
+{% comment %}Pulled from Minimal Mistakes github repo:
+https://github.com/mmistakes/minimal-mistakes/blob/master/_layouts/home.html
+{% endcomment %}
+
+{% if paginator %}
+    {% assign posts = paginator.posts %}
+{% else %}
+    {% assign posts = site.posts %}
+{% endif %}
+
+{% assign cur_year = 1000000000 %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+    {% for post in posts %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% if post_year != cur_year %}
+            <h2>{{ post_year }}</h2>
+            {% assign cur_year = post_year %}
+        {% endif %}
+
+        {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+</div>
+
+{% include paginator.html %}

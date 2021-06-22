@@ -8,8 +8,6 @@ permalink: /contests/
 
 ## Contest Highlights
 
-
-
 ### Codeforces
 
 Autogenerate top 5 perfs here :o
