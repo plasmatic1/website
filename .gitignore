@@ -3,3 +3,13 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Python scripts
+venv/
+__pycache__/
+
+# Autofetched Data
+_data/auto_accounts.json
+_data/cf_contests.json
+_data/dmoj_contests.json
+_data/fetch_time.json
