@@ -4,10 +4,10 @@
     {% assign username = 'plasmatic1' %}
 {% endif %}
 
-{% if include.icon %}
-    {% assign icon = include.icon %}
+{% if include.host %}
+    {% assign host = include.host %}
 {% else %}
-    {% assign icon = 'fa-github' %}
+    {% assign host = 'github' %}
 {% endif %}
 
 {% if include.label %}
@@ -16,5 +16,5 @@
     {% assign label = username | append: '/' | append: include.name %}
 {% endif %}
 
-<a href="https://github.com/{{ username }}/{{ include.name }}"><i class="fab {{ icon }}"></i> {{ label }}</a>
+<a href="https://{{ host }}.com/{{ username }}/{{ include.name }}"><i class="fab fa-{{ host }}"></i> {{ label }}</a>
 {% comment %}For some reason it keeps creating a newline when I don't do this...{% endcomment %}

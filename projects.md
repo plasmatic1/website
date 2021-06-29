@@ -47,7 +47,7 @@ Recently, I've begun work on a more formal codebook using [online-judge-tools/ve
 
 * {% include repo_link.html name="templates" %}
 
-### Misc.
+### Miscellaneous
 
 * Auto CPP
   * Tool that automatically downloads submissions on problems and sends them through [MOSS](https://theory.stanford.edu/~aiken/moss/) to help catch cheaters.
@@ -57,19 +57,41 @@ Recently, I've begun work on a more formal codebook using [online-judge-tools/ve
   * {% include repo_link.html name="dmoj-rating-badges" %}
 * Generators
   * I also maintain a semi-complete list of generator files I've used.  The repository is currently private but may be made public in the future.
+
+### Planned
+* Generator-Lib
+  * A generator suite compatible with `testlib.h` that has helpers to generate more complex data such as graphs.
 * DMOJ-Polygon
   * An idea I have to help port Polygon packages into files compatible with the DMOJ judge.
 
 ## Website
 
+What you're reading right now :).  This website is made with Jekyll along with some automated data fetching done in Python.
+
+* {% include repo_link.html name="website" %}
+
+The old version of my website (made with Django) is available {% include repo_link.html name="website-old" label="here" %} as well.
+
 ## Minecraft
 
-### KitsPlus
+Previously, I made a few server plugins using the Bukkit/Spigot API.  Minecraft has and will always be one of my favourite games,
+so it was very rewarding to try out various the ideas I had :)
 
-### Discord Bridge (DiscordChat)
-
-### Other
+* KitsPlus
+  * A Bukkit/Spigot plugin that implements a robust interface for KitPVP
+  * {% include repo_link.html name="kitsplus2" %} - V2 rewritten in Kotlin
+  * {% include repo_link.html name="IntellijProjects" %} - Original contained within this repository
+* Discord Bridge
+  * A bridge service that connects Minecraft server chat to discord
+  * {% include repo_link.html name="DiscordChat" host="gitlab" username="FrostTaco" %}
+* IntelliJ Projects
+  * A compilation of most of my older plugin projects, all contained within one repository because they shared some common files :P
+  * {% include repo_link.html name="IntellijProjects" %}
 
 ## Miscellaneous
 
 ### BetterWeb
+
+A browser extension intended to use NLP and neural networks to detect bias in news articles.  Unfortunately, the project is currently inactive and unfinished.
+
+* {% include repo_link.html name="BetterWeb" username="betterweb-team" %}
