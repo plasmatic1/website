@@ -9,7 +9,7 @@ UPD_CF = True
 
 DMOJ_HANDLES = ['Plasmatic']
 DMOJ_CONTEST_COUNT = 5
-CF_HANDLES = ['Plasmatic', 'thinking_space', 'wasureta', 'kenos']
+CF_HANDLES = ['Plasmatic', 'wasureta', 'thinking_space', 'kenos']
 CF_CONTEST_COUNTS = [3, 1, 1, 1]
 
 accounts = []
@@ -88,7 +88,7 @@ if UPD_CF:
         contests_to_check.extend(sorted(
             map(lambda c: (handle, c['contestName'], c['contestId'], c['rank'], c['oldRating'] + 4 * (c['newRating'] - c['oldRating']) if c['oldRating'] else -1),
                 requests.get(f'https://codeforces.com/api/user.rating?handle={handle}').json()['result']),
-            key=lambda c: c[-1], reverse=True)[:contest_count])
+            key=lambda c: c[-1] + 500 * int('Div. 1' in c[1]), reverse=True)[:contest_count])
 
     for handle, name, id, rank, _ in contests_to_check:
         cf_contests.append({
