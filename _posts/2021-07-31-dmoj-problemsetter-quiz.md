@@ -7,27 +7,68 @@ categories: contest
 
 {% include mathjax.html %}
 
-Unfortunately, this blog is still heavily work in progress, so I'll just give a gist of the idea, what it was inspired from,
- and some of its pitfalls (or rather, its one major drawback).
+!["there are no reasonable resources for the quiz".png]({{ site.baseurl }}/assets/blog_psetter_quiz/unclear.png)
 
-This trick allows us to solve problems with 2D range updates and queries offline with only one log factor above its 1D equivalent.
-  Thus, it is quite niche but can be very useful in certain sitautions.
+I figured that making a guide for the problemsetter
+While most of the questions can be solved with mostly external knowledge, I thought it still might help to write a guide
+ on how to do each question.  When possible, I'll try not to give direct answers to questions when possible, but
+pointing out things directly is sometimes necessary.
 
-Lazy D&C is inspired from the 'segment tree over time' (often introduced as an offline solution to
-dynamic connectivity with DSU) and 'lazy segment tree without propagation' tricks.  Here, we run D&C similar to a
-segment tree but offline across one of the dimensions (similar to the 'time' dimension in the 'segment tree over time' trick).
+Of course, you can always clone a copy of the DMOJ judge and set it up themselves to find the answer to everything, but
+I find this quite unnecessary especially if you aren't planning on contributing to the codebase of the judge in the
+future (or otherwise need a clone for the judge, such as for an extenal competition).
 
-When we encounter a query that covers a whole range in our D&C, we apply all updates that are within (or cover) that range to it.
-Similarly, when we hit an update that covers a whole range, we apply it to all queries that are within (or cover) that range.
-Otherwise, we break them into halves at the midpoint of the current range and
-push them to the next layer of the D&C.
+---
 
-Some of this may feel confusing and out of place, but reading up on the offline D&C solution to APIO '19 P3 (Street Lamps) may be
-helpful in conceptualizing what the idea is.
+First and foremost, the problem setter quiz is
+[here](https://docs.google.com/forms/d/e/1FAIpQLSeU59cCdTbbGAwuGnLzcps6xbp1c-GF9pbwtsJg9z5xtZ8Eiw/viewform")
 
-If you are also in need of some code here is a [problem (and solution)](https://mosesxu.ca/dmojsols/view/coci18c2p5/cpp) that uses this technique if you
-are curious.
+Now, let's go over the questions:
 
-Lastly, the biggest pitfall of the technique is that it requires you to apply and undo updates/queries multiple times, which gives it
-quite a large constant factor.
+> Email
+>
+> DMOJ Handle
 
+😛
+
+> What should you put in the field if you wanted a memory limit of 512 MB?
+
+> What does enabling short circuit do?
+
+> What is the difference (permission-wise) between a creator, curator, and a tester?
+
+> What is the difference between the points for these two problems?
+
+> What format does DMOJ use for its problem statements and math equation rendering?
+
+> How would you ensure your data is correct for the following input specification using asserts? (Write out a working program using the language of your choice)
+
+> Should input and output data end with a newline?
+
+> How would you type out the following expression in a problem statement?
+
+> When using a generator to create test data, what does the output stream and error stream represent, respectively?
+
+> What is the difference between these checkers: an absolute floating point error and a relative floating point error?
+
+> Where can you find problem examples utilizing different graders?
+
+> True or False: Checking the "Pretest?" box in the Edit Test Data page will mark the case as a sample case.
+
+> Using your preferred language, print an array of integers called "arr" on a single line, space separated, and to standard error.
+
+> What is the difference between the output prefix length and the output limit length?
+
+> Is setting a zero point value for a case legal?
+
+> Fill in the blank: Generators ____ have a fixed seed.
+
+> What is the difference between the line-by-line checker and the unordered checker?
+
+> Fill in the blank: You should use ____ media uploader for problem statements.
+
+---
+
+And... that's it :)
+
+Hope this guide was useful to those who needed it!
