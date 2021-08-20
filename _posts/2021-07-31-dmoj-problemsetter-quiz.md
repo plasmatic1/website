@@ -18,6 +18,8 @@ Of course, you can always clone a copy of the DMOJ judge and set it up themselve
 I find this quite unnecessary especially if you aren't planning on contributing to the codebase of the judge in the
 future (or otherwise need a clone for the judge, such as for an extenal competition).
 
+Additionally, I'll also
+
 ---
 
 First and foremost, the problem setter quiz is
@@ -56,6 +58,10 @@ Now, let's go over the questions:
 > True or False: Checking the "Pretest?" box in the Edit Test Data page will mark the case as a sample case.
 
 > Using your preferred language, print an array of integers called "arr" on a single line, space separated, and to standard error.
+
+This question doesn't require you to also validate whitespace and input format, just that the values given in the input
+respect the constraints given in the description.  Since DMOJ doesn't support services like polygon to prepare problems,
+submitting to the judge is the easiest way to
 
 > What is the difference between the output prefix length and the output limit length?
 
