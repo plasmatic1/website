@@ -90,5 +90,4 @@ which means that they'll behave nicely with a lot of theorems that we expect fro
 with a bit of generalizing.
 
 As for when this formula applies to matrices $$M$$, if we can expect for the sum 
-$$M + M^2 + M^3 + \ldots$$ to converge, then the formula should work.  For example, the same method can be applied to
-any Absorbing Markov chain.
+$$M + M^2 + M^3 + \ldots$$ to converge, then the formula should work.  For example, other Absorbing Markov chains.
