@@ -7,18 +7,9 @@ categories: contest
 
 {% include mathjax.html %}
 
-[//]: # (!["there are no reasonable resources for the quiz".png]&#40;{{ site.baseurl }}/assets/blog_psetter_quiz/unclear.png&#41;)
+[//]: # (![unclear.png]&#40;{{ site.baseurl }}/assets/blog_psetter_quiz/unclear.png&#41;)
 
-[//]: # (I figured that making a guide for the problemsetter)
-[//]: # (While most of the questions can be solved with mostly external knowledge, I thought it still might help to write a guide)
-[//]: # ( on how to do each question.  When possible, I'll try not to give direct answers to questions when possible, but)
-[//]: # (pointing out things directly is sometimes necessary.)
-[//]: # (Of course, you can always clone a copy of the DMOJ judge and set it up themselves to find the answer to everything, but)
-[//]: # (I find this quite unnecessary especially if you aren't planning on contributing to the codebase of the judge in the)
-[//]: # (future &#40;or otherwise need a clone for the judge, such as for an extenal competition&#41;.)
-[//]: # (Additionally, I'll also)
-
-This post is pretty straightforward- it's just a guide to the questions on the DMOJ problemsetter quiz 
+This post is pretty straightforward- it's just a guide to the questions on the DMOJ problemsetter quiz
 for those that need a bit of a hand :)
 
 Where possible, I try to link to the relevant documentation.
