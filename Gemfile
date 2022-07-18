@@ -29,3 +29,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "minimal-mistakes-jekyll"
+
+# Make sure sassc doesn't take forever to compile
+# https://stackoverflow.com/questions/62720043/rails-why-is-bundle-install-frozen-up-by-sassc-2-4-0
+gem "sassc", "2.1.0"
