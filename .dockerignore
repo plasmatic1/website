@@ -1,0 +1,7 @@
+.idea/
+.git/
+.jekyll-cache/
+venv/
+docker-compose.yml
+.gitignore
+__pycache__/
