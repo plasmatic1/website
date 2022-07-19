@@ -28,7 +28,8 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "minimal-mistakes-jekyll"
+# https://github.com/mmistakes/minimal-mistakes/commit/0491cd362bd8e742940c1f4eaae89cf9da6ef7e7
+gem "minimal-mistakes-jekyll", git: "https://github.com/mmistakes/minimal-mistakes", ref: "0491cd362bd8e742940c1f4eaae89cf9da6ef7e7"
 
 # Make sure sassc doesn't take forever to compile
 # https://stackoverflow.com/questions/62720043/rails-why-is-bundle-install-frozen-up-by-sassc-2-4-0
