@@ -7,15 +7,15 @@ toc: true
 toc_label: Contests
 ---
 
-As competitive programming has been one of my biggest hobbies in the past few years, here I list some of my contest highlights and achievements
-I am proud of.
+I spent a lot of time on competitive programming and so regardless of what role it plays in my life right now, I want to
+leave this page as a list of some of the things I'm proud of :)
 
 _DMOJ and CF content is auto-fetched.  Auto-fetched content last updated {{ site.data.fetch_time.time_display }}._
 
 ## Problem Setting
 
-Outside of competition, I also spend a lot of time organizing and preparing programming competitions and currently plan to work on some tools
-that can help improve the experience of problem-setting as it is often very time-consuming and difficult.
+Besides competing, I've also spent a lot of time organizing and preparing contests, and have some
+plans to work on my own suite of tools for problem setters.
 
 <table>
     <tr>
@@ -30,12 +30,9 @@ that can help improve the experience of problem-setting as it is often very time
     {% endfor %}
 </table>
 
-I also have some standalone problems on the DMOJ judge that were either uploaded for fun or as part of class quizzes at Olympiads School.
-  You can find these [here](https://dmoj.ca/user/Plasmatic/solved) after scrolling down a bit.
+Standalone problems on the DMOJ judge I've published: [here](https://dmoj.ca/user/Plasmatic/solved).
 
 ## Contest Highlights
-
-Contest highlights :)
 
 ### Other
 
