@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Moses Xu"
-  avatar           : "/assets/logo.png"
+  avatar           : "/assets/me.jpg"
   bio              : "CS '26 @ University of Waterloo"
   location         : "Oakville, Canada"
   email            : "moses@mosesxu.net"
