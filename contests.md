@@ -1,21 +1,15 @@
 ---
 layout: single
-title: Competitive Programming
+title: Contest Highlights
 permalink: /contests/
 
 toc: true
 toc_label: Contests
 ---
 
-I spent a lot of time on competitive programming and so regardless of what role it plays in my life right now, I want to
-leave this page as a list of some of the things I'm proud of :)
-
-_DMOJ and CF content is auto-fetched.  Auto-fetched content last updated {{ site.data.fetch_time.time_display }}._
+Problemsetting and contest hights from my years in competitive programming :)
 
 ## Problem Setting
-
-Besides competing, I've also spent a lot of time organizing and preparing contests, and have some
-plans to work on my own suite of tools for problem setters.
 
 <table>
     <tr>
@@ -30,11 +24,13 @@ plans to work on my own suite of tools for problem setters.
     {% endfor %}
 </table>
 
-Standalone problems on the DMOJ judge I've published: [here](https://dmoj.ca/user/Plasmatic/solved).
+Additional: [my DMOJ problems](https://dmoj.ca/user/Plasmatic/solved).
 
 ## Contest Highlights
 
-### Other
+_DMOJ and CF content is auto-fetched.  Auto-fetched content last updated {{ site.data.fetch_time.time_display }}._
+
+### External
 
 <table>
     <tr>
