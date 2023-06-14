@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Projects 
+title: (Public) Projects
 permalink: /projects/
 
 toc: true
@@ -9,8 +9,6 @@ toc_label: Projects
 
 ## Competitive Programming
 
-As a competitive programmer, naturally I have many related projects.
-
 ### Competitive Programming Tools
 
 A suite of competitive programming tools, including a system for automated execution of code on test case, automatic
@@ -18,64 +16,61 @@ fetching of templates, and stress-testing.  There is also support for a variety 
 
 Currently, there exists two versions of the tool, the original being a VSCode extension, and the current one being a console-based
 Python module that can be easily integrated into existing text editors and IDEs such as Vim.  Below are the links to their respective
-repositories.
+repositories:
 
 * {% include repo_link.html name="cp-tools-console" label="Python Module" %}
 * {% include repo_link.html name="competitive-programming-tools" label="VSCode Extension" %}
 
-#### Competition Environment
-
-For competitions and practice, I use a customized [Vim](https://www.vim.org/) setup with many plugins.  Full configuration and setup script can be found on
-{% include repo_link.html name="competitive-programming-dotfiles" label="Github" %}.
-
 ### Judge Solutions
 
-I maintain a list of most of my judge solutions that others can browse if they are stuck or want to see alternatives implementations of a problem 😊
+I maintain a list of over 2,000 of my solutions that others can browse if they are stuck or want to see alternatives implementations of a problem 😊
 
 * {% include repo_link.html name="dmoj-solutions" %}
 * {% include repo_link.html name="other-judge-solutions" %}
 
-#### Solution Downloader
-
-One of my planned projects is a solution downloader that can aggregate code from many different judges, removing the need to manually organize solutions.
-Unfortunately, it's currently still in development.
-
 ### Templates
 
-Recently, I've begun work on a more formal codebook using [online-judge-tools/verification-helper](https://github.com/online-judge-tools/verification-helper) to
- ensure correctness of algorithms and generate documentation.
+A codebook using [online-judge-tools/verification-helper](https://github.com/online-judge-tools/verification-helper) to
+ensure correctness of algorithms and generate documentation.
+
+The templates are designed to be "plug-and-play", meaning that their source code need not be modified for use.
 
 * {% include repo_link.html name="templates" %}
 
-### Miscellaneous
+### Miscellaneous/Planned
 
+* Competition Environment
+    * For competitions and practice, I use a customized [Vim](https://www.vim.org/) setup with many plugins.  Full configuration and setup script can be found on
+        {% include repo_link.html name="competitive-programming-dotfiles" label="Github" %}.
 * Auto CPP
   * Tool that automatically downloads submissions on problems and sends them through [MOSS](https://theory.stanford.edu/~aiken/moss/) to help catch cheaters.
   * {% include repo_link.html name="autocpp" %}
 * Rating badges
-  * Rating SVG badges for your GitHub about page (or anywhere else that accepts them).  However, currently only DMOJ is supported.
-  * {% include repo_link.html name="dmoj-rating-badges" %}
-* Generators
-  * I also maintain a semi-complete list of generator files I've used.  The repository is currently private but may be made public in the future.
+  * Rating SVG badges for your GitHub about page (or anywhere else that accepts them).
+  * {% include repo_link.html name="judge-badge" %}
+* (Planned) Solution Downloader
+  * I have plans for a more comprehensive solution downloader that can aggregate solutions from many different judges into a searchable repository
 
-### Planned
-* Generator-Lib
-  * A generator suite compatible with `testlib.h` that has helpers to generate more complex data such as graphs.
-* DMOJ-Polygon
-  * An idea I have to help port Polygon packages into files compatible with the DMOJ judge.
+<!-- ### Planned -->
+<!-- * Generator-Lib -->
+<!--   * A generator suite compatible with `testlib.h` that has helpers to generate more complex data such as graphs. -->
+<!-- * DMOJ-Polygon -->
+<!--   * An idea I have to help port Polygon packages into files compatible with the DMOJ judge. -->
 
 ## Website
 
-What you're reading right now :).  This website is made with Jekyll along with some automated data fetching done in Python.
+What you're reading right now :).  This static website is made with Jekyll, with some Python scripts to fetch additional data.
+
+The services are hosted in Docker containers on a VPS, with routing done via an NGINX reverse proxy.
 
 * {% include repo_link.html name="website" %}
 
-The old version of my website (made with Django) is available {% include repo_link.html name="website-old" label="here" %} as well.
+<!-- An old version of my site is available {% include repo_link.html name="website-old" label="here" %} as well. -->
 
 ## Minecraft
 
 Previously, I made a few server plugins using the Bukkit/Spigot API.  Minecraft has and will always be one of my favourite games,
-so it was very rewarding to try out various the ideas I had :)
+and is the source of much of my early programming experience.
 
 * KitsPlus
   * A Bukkit/Spigot plugin that implements a robust interface for KitPVP
@@ -87,11 +82,3 @@ so it was very rewarding to try out various the ideas I had :)
 * IntelliJ Projects
   * A compilation of most of my older plugin projects, all contained within one repository because they shared some common files :P
   * {% include repo_link.html name="IntellijProjects" %}
-
-## Miscellaneous
-
-### BetterWeb
-
-A browser extension intended to use NLP and neural networks to detect bias in news articles.  Unfortunately, the project is currently inactive and unfinished.
-
-* {% include repo_link.html name="BetterWeb" username="betterweb-team" %}

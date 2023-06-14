@@ -1,11 +1,11 @@
 main:
   - title: "About Me"
     url: /
-  - title: "Competitive Programming"
+  - title: "Résumé"
+    url: /resume/
+  - title: "Contests"
     url: /contests/
   - title: "Projects"
     url: /projects/
-  - title: "Résumé"
-    url: /resume/
   - title: "Blog"
     url: /blog/
