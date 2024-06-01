@@ -1,4 +1,4 @@
-FROM ruby:2.6.5
+FROM ruby:3.2.3
 
 WORKDIR /usr/src/app
 COPY . .
@@ -10,7 +10,7 @@ RUN pip3 install -r requirements.txt
 RUN python3 reload_data.py
 
 # Install deps for website
-RUN gem install bundler -v 2.2.21
+RUN gem install bundler
 RUN bundle install
 
 CMD ["jekyll", "serve", "--host", "0.0.0.0", "--port", "8000"]
