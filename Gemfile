@@ -34,3 +34,4 @@ gem "minimal-mistakes-jekyll", git: "https://github.com/mmistakes/minimal-mistak
 # Make sure sassc doesn't take forever to compile
 # https://stackoverflow.com/questions/62720043/rails-why-is-bundle-install-frozen-up-by-sassc-2-4-0
 gem "sassc", "2.1.0"
+gem "webrick", "~> 1.8"
