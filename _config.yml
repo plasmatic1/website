@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Moses' Website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Moses Xu"
+name                     : "Moses X."
 description              : "My Personal Website"
 url                      : "https://www.mosesxu.ca" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -94,8 +94,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Moses Xu"
-  avatar           : "/assets/me.jpg"
+  name             : "Moses X"
+  avatar           : "/assets/logo.png"
   bio              : "CS @ University of Waterloo"
   location         : "Oakville, Canada"
   email            : "moses@mosesxu.net"
