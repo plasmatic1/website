@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "Phones and Markov Chains"
+title:  "Problem Takeup: Phones and Markov Chains"
 date:   2021-12-27 17:45:00 -0400
-categories: contest math
+categories: contest
 ---
 
 {% include mathjax.html %}

@@ -7,12 +7,17 @@ categories: contest
 
 {% include mathjax.html %}
 
-[//]: # (![unclear.png]&#40;{{ site.baseurl }}/assets/blog_psetter_quiz/unclear.png&#41;)
+![unclear.png]({{ site.baseurl }}/assets/blog_psetter_quiz/unclear.png)
 
-This post is pretty straightforward- it's just a guide to the questions on the DMOJ problemsetter quiz
-for those that need a bit of a hand :)
+<p style="text-align: center; font-style: italic;">Seems like someone is frustrated</p>
 
-Where possible, I try to link to the relevant documentation.
+---
+
+DMOJ is quite complicated, so it can be difficult to find all the information necessary to begin setting problems
+especially if you don't clone your own instance of the judge. Thus, this post is a guide to the questions on the
+DMOJ problemsetter quiz for those that need a bit of a hand :)
+
+Where possible, I try to link to the relevant documentation and not give the answer directly.
 
 ---
 
