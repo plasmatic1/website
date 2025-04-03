@@ -6,7 +6,7 @@ COPY . .
 # Run reload_data.py
 RUN apt update
 RUN apt install python3-pip -y
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirements.txt --break-system-packages
 RUN python3 reload_data.py
 
 # Install deps for website
