@@ -9,11 +9,11 @@ categories: contest
 
 ![unclear.png]({{ site.baseurl }}/assets/blog_psetter_quiz/unclear.png)
 
-<p style="text-align: center; font-style: italic;">Seems like someone is frustrated</p>
+<p style="text-align: center; font-style: italic;">Seems like someone is frustrated 👀</p>
 
 ---
 
-DMOJ is quite complicated, so it can be difficult to find all the information necessary to begin setting problems
+DMOJ is quite complicated, so it can be difficult to find all the information necessary to begin setting problems,
 especially if you don't clone your own instance of the judge. Thus, this post is a guide to the questions on the
 DMOJ problemsetter quiz for those that need a bit of a hand :)
 
