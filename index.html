@@ -34,10 +34,19 @@ author_profile: true
 
 <p>Sub-sites:</p>
 <ul>
-    <li><a href="/dmoj-sols/">DMOJ Solution List</a></li>
-    <li><a href="/judge-badge/">Online Judge SVG Badges</a> <a
+    <li><a href="#" id="dmoj-sols-link">DMOJ Solution List</a></li>
+    <li><a href="#" id="judge-badge-link">Online Judge SVG Badges</a> <a
             href="https://github.com/plasmatic1/judge-badge">(GitHub)</a></li>
+    <li><a href="#" id="notes-link">Course Notes</a> <a
 </ul>
 </body>
+
+<script>
+  const base = window.location.hostname.replace(/^www\./, "");
+  const path = window.location.pathname;
+  document.getElementById("dmoj-sols-link").href = `https://dmoj-sols.${base}${path}`;
+  document.getElementById("judge-badge-link").href = `https://judge-badge.${base}${path}`;
+  document.getElementById("notes-link").href = `https://notes.${base}${path}`;
+</script>
 
 </html>
